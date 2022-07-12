@@ -130,7 +130,7 @@ div {
     .artworks img {
     margin: auto;
     border-radius: 30px 30px;
-    height: 250px;
+    height: 200px;
     width: auto;
 
     }
@@ -225,23 +225,24 @@ div {
             margin:auto;
         }
         
-        footer{
+footer{
             text-align: center;
         }
-        .footer {
-            display: inline-block;
-            background-color: whitesmoke;
-            position: flex;
-            margin-top: 1%;
-            padding-top: 1%;
-            bottom: 0;
-            border-radius: 30px 30px;
-            width: 93%;
-            height: 2em;
-            text-align: center;
-            flex-wrap: wrap;
-            flex-direction: column;
-            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.582);
+    .footer {
+        color: white;
+        display: inline-block;
+        background-color: var(--blue-bell);
+        position: flex;
+        margin-top: 5%;
+        padding-top: 1%;
+        bottom: 0;
+        border-radius: 30px 30px;
+        width: 93%;
+        height: 2em;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.582);
         }
     
 input[type=text], select, textarea {

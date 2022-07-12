@@ -89,6 +89,7 @@ div {
     }
 
     .box {
+    text-align: center;
     color:white;
     font-size: 1.6em;
     display:table;
@@ -103,21 +104,23 @@ div {
     }
 
     .artworks {
-        display: block;
+        display: inline-block;
         justify-content: space-around;
         background-color: none;
         margin: auto;
         width: 80%;
         padding: 0% 3%;
         text-align: center;
+        scale: 10%;
         
     }
     
-    img {
+    .artworks > img {
     margin: auto;
     border-radius: 30px 30px;
-    max-width: 100%;
-    max-height: 100%;
+    height: 250px;
+    max-width: auto;
+
     }
     .thumbnail {  
         outline: 1px solid white;

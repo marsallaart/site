@@ -244,18 +244,39 @@ footer{
         flex-direction: column;
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.582);
         }
-    
-input[type=text], select, textarea {
+
+input[type=nome], select, textarea {
     width: 100%;
-    padding: 30px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 30px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
     width:auto;
     height:auto;
-  }
+    margin: 3%
+    }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: content-box;
+    margin: 3%;
+    width:80%;
+    height:200px;
+    }
+
+    input[type=email], select, textarea {
+        width: 100%;
+        padding: 9px;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        box-sizing: border-box;
+        width:auto;
+        height:auto;
+        margin: 3%
+        }
   
   input[type=submit] {
     background-color: #04AA6D;
@@ -277,15 +298,16 @@ input[type=text], select, textarea {
     padding: 30px;
     position: flex;
     margin: auto;
-    text-align: center;
-    vertical-align: middle;
+    text-align: left;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.582);
     width: 50%;
     height: auto;
-    justify-content: center;
-    
-
   }
+
+  form {
+    text-align:center;
+  }
+
   .links {
     text-align: center;
     display:flex;

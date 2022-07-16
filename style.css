@@ -127,21 +127,20 @@ div {
 
 
     .portfolios {
-        display: inline-block;
+        display: flex;
         justify-content: space-around;
-        background-color: none;
         margin: auto;
-        width: 70%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 80%;
         padding: 0% 3%;
-        text-align: center;
-        scale: 10%;
         
     }
     .portfolios img {
-        margin: 3%;
+        margin: 0;
         border-radius: 0;
-        max-height: 300px;
-        max-width: 300px;
+        max-height: 80%;
+        max-width: 80%;
     }
 
     .artworks {
@@ -152,7 +151,6 @@ div {
         width: 70%;
         padding: 0% 3%;
         text-align: center;
-        scale: 10%;
         
     }
     

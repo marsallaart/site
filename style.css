@@ -29,10 +29,9 @@
           }
 
         h1{
-            font-style: bold;
+            font-style: normal;
             font-family:'orator';
             font-size: 1.2em;
-            font-style: bold;
             text-align: center;
         }
 
@@ -41,7 +40,12 @@
             font-style:normal;
             font-family:'orator';
             font-size: 0.6em;
-            font-style: bold;
+        }
+
+        h3 {
+            font-style:normal;
+            font-family:'lora, sans serif';
+            font-size: 1.0em;
         }
 
 
